@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <header>
         <div className="logo">
-            <span>JLIBRARY</span>
+            <span>Book Lovers Corner</span>
         </div>
         <ul>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>ABOUT</Link></li>
+            <li><Link to='/about'>About</Link></li>
         </ul>
     </header>
   )
