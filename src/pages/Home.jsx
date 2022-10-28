@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import React from 'react'
 import Search from '../components/search';
+import Modal from '../components/modal';
 
 const Home = () => {
 
@@ -51,6 +52,11 @@ const searchHandler = (search) =>{
     setSearchResults(array)
   }
 }
+
+const handleModal = (e) =>{
+let newClass = e.target.closest('.list-item')
+newClass.classList.add('flex')
+}
   return (
     <div className="container">
     <Search term={search} searchKeyword={searchHandler}/>
@@ -59,8 +65,9 @@ const searchHandler = (search) =>{
        {array.map((item,i)=>{
         const imgUrl = `https://covers.openlibrary.org/b/id/${item.cover_i}-M.jpg`
     return <li key={i} className='list-item'>
-         <img src={imgUrl} />
+         <img src={imgUrl} onClick={handleModal}/>
         {item.title}
+        <Modal src={imgUrl} title={item.title} />
         </li>
       })}
     </ul>
@@ -69,8 +76,9 @@ const searchHandler = (search) =>{
   {searchResults.map((item,i)=>{
      const imgUrl = `https://covers.openlibrary.org/b/id/${item.cover_i}-M.jpg`
 return <li key={i} className='list-item'>
-        <img src={imgUrl} />
+        <img src={imgUrl} onClick={handleModal}/>
     {item.title}
+    <Modal img={imgUrl} title={item.title}/>
     
 </li>
  })}
