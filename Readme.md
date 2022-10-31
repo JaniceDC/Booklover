@@ -19,4 +19,5 @@ https://janicedc.github.io/Booklover/
 
 
 **Future improvements**
-- Will expand this search functionality to cater for a much wider scope which means most components will need to be re-written
+- Will expand this search functionality to cater for a much wider scope which means most components will need to be re-written.
+- Will extend to show more book summaries
