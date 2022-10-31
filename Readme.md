@@ -12,7 +12,7 @@ It has a search functionality from J.R.R Tolkien.
 https://openlibrary.org/search.json?author=tolkien
 
 **Project run through video**
-
+https://www.loom.com/share/be715af678fb47b6b0aed87cea7c45bc
 
 **Live GitHub Page link**
 https://janicedc.github.io/Booklover/
@@ -20,4 +20,5 @@ https://janicedc.github.io/Booklover/
 
 **Future improvements**
 - Will expand this search functionality to cater for a much wider scope which means most components will need to be re-written.
-- Will extend to show more book summaries
+- Will extend to show more book summaries and reviews (I do think reviews will be harder to achieve)
+- Readers will be able to create a reading list
