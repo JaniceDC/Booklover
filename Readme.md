@@ -9,7 +9,7 @@ Book Lovers Corner is built in React and fetches an open API.
 It has a search functionality from J.R.R Tolkien.
 
 **API used**
-http://openlibrary.org/search.json?author=tolkien
+https://openlibrary.org/search.json?author=tolkien
 
 **Project run through video**
 
