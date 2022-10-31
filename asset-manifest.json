@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Booklover/static/css/main.fb68d252.css",
-    "main.js": "/Booklover/static/js/main.c60ccf2e.js",
+    "main.js": "/Booklover/static/js/main.b34ea39e.js",
     "static/media/bg.jpg": "/Booklover/static/media/bg.6fababf6dc3bc98a8c8e.jpg",
     "index.html": "/Booklover/index.html",
     "main.fb68d252.css.map": "/Booklover/static/css/main.fb68d252.css.map",
-    "main.c60ccf2e.js.map": "/Booklover/static/js/main.c60ccf2e.js.map"
+    "main.b34ea39e.js.map": "/Booklover/static/js/main.b34ea39e.js.map"
   },
   "entrypoints": [
     "static/css/main.fb68d252.css",
-    "static/js/main.c60ccf2e.js"
+    "static/js/main.b34ea39e.js"
   ]
 }
